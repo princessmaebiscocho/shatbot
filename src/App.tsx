@@ -1,10 +1,5 @@
-export default function App() {
-  return (
-    <div className="App">
-      <h1>Chatbot</h1>
-    </div>
-  );
-}
+import { useState, useRef, useEffect, useCallback } from 'react'
+import type { KeyboardEvent } from 'react'
 
 type Role = 'user' | 'assistant'
 
